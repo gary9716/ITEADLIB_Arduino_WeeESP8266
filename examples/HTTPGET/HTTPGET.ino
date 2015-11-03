@@ -23,7 +23,7 @@
 #include "ESP8266.h"
 
 #define SSID        "Lab430PrinterWifi"
-#define PASSWORD     "androidiphone"
+#define PASSWORD    "androidiphone"
 #define HOST_NAME   "10.4.28.9"
 #define HOST_PORT   (8080)
 #define BUFFER_SIZE (128)
@@ -126,7 +126,7 @@ void httpRequest(int methodType, const char* hostName, int port, const char* req
 void loop(void)
 {
     
-    httpRequest(GET_METHOD, "10.4.28.9", 8080, "/");
+    httpRequest(GET_METHOD, HOST_NAME, HOST_PORT, "/");
     delay(2000);
 //    while(1);
 
