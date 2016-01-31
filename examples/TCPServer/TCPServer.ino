@@ -18,7 +18,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+#include <SoftwareSerial.h>
 #include "ESP8266.h"
 
 #define SSID        "Lab430 2.4GHz"
